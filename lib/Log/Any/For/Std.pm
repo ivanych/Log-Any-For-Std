@@ -10,7 +10,7 @@ use warnings;
 
 use Log::Any '$log';
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 #---
 

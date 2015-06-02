@@ -1,5 +1,9 @@
 Revision history for Log-Any-For-Std
 
+0.03    2015-06-02
+        - Fixed header in the POD
+        - Author was added
+
 0.02    2015-06-01
         - Documentation was written.
 
