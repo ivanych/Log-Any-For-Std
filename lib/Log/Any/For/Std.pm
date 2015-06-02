@@ -97,7 +97,7 @@ The module C<Log::Any::For::Std>  logs your messages for you. You can just
 write in your application C<use Log::Any::For::Std;> and all the standard error
 messages will start logging magically.
 
-=head1 Logging events
+=head1 LOGGING EVENTS
 
 The module logs following events:
 
