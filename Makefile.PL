@@ -6,7 +6,7 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile(
     NAME             => 'Log::Any::For::Std',
-    AUTHOR           => q{Mikhail Ivanov <m.ivanych@gmail.com>},
+    AUTHOR           => [ 'Mikhail Ivanov <m.ivanych@gmail.com>', 'Anastasia Zherebtsova <zherebtsova@gmail.com>' ],
     VERSION_FROM     => 'lib/Log/Any/For/Std.pm',
     ABSTRACT_FROM    => 'lib/Log/Any/For/Std.pm',
     LICENSE          => 'perl_5',
