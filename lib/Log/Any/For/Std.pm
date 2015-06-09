@@ -17,7 +17,7 @@ our $VERSION = '0.03';
 my $sig;
 
 # Value assignment is needed for futher learning in the PRINT method where the message came from
-$SIG{__DIE__} = sub { $sig = 'DIE' };
+$SIG{__DIE__} = sub { die @_ if ( $^S or not defined $^S ); $sig = 'DIE' };
 $SIG{__WARN__} = sub { $sig = 'WARN'; print STDERR @_ };
 
 # We connect the descriptor STDERR with the current packet for interception of all error messages
