@@ -1,5 +1,8 @@
 Revision history for Log-Any-For-Std
 
+0.04    2015-06-09
+        - Exceptions, occuring inside the eval, are not captured any more.
+
 0.03    2015-06-02
         - Fixed header in the POD
         - Author was added
