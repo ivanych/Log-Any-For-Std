@@ -8,9 +8,9 @@ use 5.008001;
 use strict;
 use warnings;
 
-use Log::Any '$log';
+use Log::Any '$log', default_adapter => 'Duperr';
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 #---
 

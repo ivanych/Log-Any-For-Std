@@ -19,7 +19,8 @@ WriteMakefile(
         'Test::More' => 0,
     },
     PREREQ_PM => {
-        'Log::Any'  => 0,
+        'Log::Any'                   => 0,
+        'Log::Any::Adapter::Dupstd'  => 0,
     },
     META_MERGE => {
         'meta-spec' => { version => 2 },
