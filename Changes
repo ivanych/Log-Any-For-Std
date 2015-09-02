@@ -1,5 +1,8 @@
 Revision history for Log-Any-For-Std
 
+0.05    2015-09-02
+        - Default adapter enabled (Log::Any::Adapter::Duperr).
+
 0.04    2015-06-09
         - Exceptions, occuring inside the eval, are not captured any more.
 
